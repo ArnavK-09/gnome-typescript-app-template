@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="hello-world">
+  <schema id="org.gnome.HelloWorld" path="/org/gnome/HelloWorld/"/>
+</schemalist>

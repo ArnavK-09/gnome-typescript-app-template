@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Hello World
+Exec=org.gnome.HelloWorld
+Icon=org.gnome.HelloWorld
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true

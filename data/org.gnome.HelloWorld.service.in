@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.HelloWorld
+Exec=@bindir@/org.gnome.HelloWorld --gapplication-service

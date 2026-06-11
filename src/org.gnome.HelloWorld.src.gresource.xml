@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/HelloWorld/js">
+    <file alias="main.js">../dist/main.js</file>
+    <file alias="application.js">../dist/application.js</file>
+    <file alias="window.js">../dist/window.js</file>
+  </gresource>
+</gresources>

@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
-  <requires lib="gtk" version="4.0"/>
-  <requires lib="Adw" version="1.0"/>
+  <requires lib="gtk" version="4.0" />
+  <requires lib="Adw" version="1.0" />
   <template class="HelloWorldWindow">
-    <property name="title" translatable="yes">Hello World</property>
+    <property name="title">Hello World</property>
     <property name="default-width">800</property>
     <property name="default-height">600</property>
-    <child>
-      <object class="GtkLabel" id="main_label">
-        <property name="label" translatable="yes">Hello, World!</property>
-        <property name="vexpand">true</property>
-        <property name="halign">center</property>
-        <property name="valign">center</property>
+    <property name="content">
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar">
+            <child type="title">
+              <object class="GtkLabel">
+                <property name="label"></property>
+                <property name="halign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <property name="content">
+          <object class="GtkScrolledWindow">
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <child>
+              <object class="GtkLabel" id="main_label">
+                <property name="label" translatable="yes">Hello, World!</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </property>
       </object>
-    </child>
+    </property>
   </template>
 </interface>

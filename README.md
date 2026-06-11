@@ -7,7 +7,7 @@
 </p>
 
 > [!NOTE]
-> 
+>
 > This is a minimal GNOME 50 application template using TypeScript, GJS, GTK 4, and libadwaita.  
 > Fast-iterating, easy-to-read, and developer-friendly, it helps you bootstrap new GNOME 50 projects with modern tooling and technology.
 
@@ -49,7 +49,8 @@ bun install
 ```bash
 bun run dev
 ```
-*`dev` compiles TypeScript, rebuilds GResource bundles, launches the app, and restarts it whenever `src/**/*.ts` or `src/**/*.ui` files change.*
+
+_`dev` compiles TypeScript, rebuilds GResource bundles, launches the app, and restarts it whenever `src/\*\*/_.ts`or`src/\*_/_.ui` files change.\*
 
 ## 🚀 Build and run (manual / no watch)
 
@@ -87,8 +88,8 @@ Production installs use Meson, which compiles the same GResource XML files and i
 
 > Here's a working and expected screenshot of Hello World
 
-| Landing Page  |
-|--------------|
+| Landing Page                              |
+| ----------------------------------------- |
 | ![Demo](https://github.com/ArnavK-09.png) |
 
 ---
@@ -103,12 +104,14 @@ Production installs use Meson, which compiles the same GResource XML files and i
 
 2. **Clone Your Fork**  
    Clone the repo locally:
+
    ```bash
-   git clone https://github.com/ArnavK-09/HelloWorld.git
+   git clone https://github.com/ArnavK-09/gnome-typescript-app-template.git
    ```
 
 3. **Create a Branch**  
    Create a new branch for your changes:
+
    ```bash
    git checkout -b your-feature-branch
    ```
@@ -118,6 +121,7 @@ Production installs use Meson, which compiles the same GResource XML files and i
 
 5. **Commit and Push**  
    Commit your changes and push the branch:
+
    ```bash
    git commit -m "feat(scope): description"
    git push origin your-feature-branch
@@ -131,7 +135,7 @@ Production installs use Meson, which compiles the same GResource XML files and i
 
 ## 🙋‍♂️ Issues
 
-Found a bug or need help? Please create an issue on the [GitHub repository](https://github.com/ArnavK-09/HelloWorld/issues) with a detailed description.
+Found a bug or need help? Please create an issue on the [GitHub repository](https://github.com/ArnavK-09/gnome-typescript-app-template/issues) with a detailed description.
 
 ## 👤 Author
 
@@ -143,20 +147,12 @@ Found a bug or need help? Please create an issue on the [GitHub repository](http
   </tbody>
 </table>
 
-## 🛣️ Roadmap
-
-| Task                  | Status |
-| :-------------------: | :----: |
-|🗣️ Polish TypeScript   | 🟢     | 
-|🗣️ Add GSettings demo  | 🟡     | 
-|🗣️ Flatpak packaging   | 🔴     | 
-
 ---
 
 <h2 align="center">📄 License</h2>
 
 <p align="center">
-<strong>Hello World</strong> is licensed under the <code>Unlicense</code> License. See the <a href="https://github.com/ArnavK-09/HelloWorld/blob/main/LICENSE">LICENSE</a> file for more details.
+<strong>Hello World</strong> is licensed under the <code>Unlicense</code> License. See the <a href="https://github.com/ArnavK-09/gnome-typescript-app-template/blob/main/LICENSE">LICENSE</a> file for more details.
 </p>
 
 ---

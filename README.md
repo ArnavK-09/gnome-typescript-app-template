@@ -88,9 +88,9 @@ Production installs use Meson, which compiles the same GResource XML files and i
 
 > Here's a working and expected screenshot of Hello World
 
-| Landing Page                              |
+| Preview                                   |
 | ----------------------------------------- |
-| ![Demo](https://github.com/ArnavK-09.png) |
+| ![Demo](https://github.com/user-attachments/assets/fec7bc6c-4558-4321-9bb4-8d4f26d9419c) |
 
 ---
 

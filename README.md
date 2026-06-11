@@ -1,9 +1,9 @@
-<h1 align="center">🌍 Hello World 🌍</h1>
+<h1 align="center">🪛 Hello World 🪛</h1>
 
 <h2 align="center">A minimal TypeScript GNOME 50 app template</h2>
 
 <p align="center">
-    <img alt="hero" width="450" src="https://emoji-route.deno.dev/svg/🌍" />
+    <img alt="hero" width="450" src="https://emoji-route.deno.dev/svg/🪛" />
 </p>
 
 > [!NOTE]
